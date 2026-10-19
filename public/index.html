@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Taskflow</title><link rel="stylesheet" href="/styles.css"><script defer src="/app.js"></script></head>
+<body><header><a class="brand" href="/">Taskflow<span class="dot"></span></a><span class="pill">PERSONAL WORKSPACE</span></header>
+<main><section class="hero"><div><p class="eyebrow">YOUR EVERYDAY, ORGANIZED</p><h1>A little structure. A lot more focus.</h1><p class="subtitle">Create, edit, delete, search and filter tasks. Track priorities, due dates and completion progress.</p></div><div class="hero-art" aria-hidden="true">✦</div></section>
+<div id="notice" role="status" aria-live="polite"></div><section id="stats" class="stats" aria-label="Overview"></section>
+<section class="workspace"><aside><p class="eyebrow">MAKE IT HAPPEN</p><h2 id="form-title">New task</h2><form id="record-form"><div id="fields"></div><div class="form-actions"><button class="primary" type="submit" id="save">Save task</button><button id="cancel" type="button" hidden>Cancel edit</button></div></form></aside>
+<section class="records"><div class="records-heading"><h2>Your records</h2><span id="count" class="pill">Loading</span></div><div class="toolbar"><label>Search<input id="search" type="search" placeholder="Search records…"></label><label id="filter-label">Filter<select id="filter"><option value="">All</option></select></label></div><div class="table-wrap"><table><thead id="head"></thead><tbody id="rows"></tbody></table></div><p id="empty" hidden>No records yet. Add your first one to get started.</p></section></section>
+<footer>Local portfolio demo · Saved in SQLite · No account required</footer></main></body></html>
